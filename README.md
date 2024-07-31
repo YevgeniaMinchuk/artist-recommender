@@ -31,7 +31,7 @@ To set up this project, follow these steps:
    
 3. Download the Last.fm dataset:
    
-    Place the dataset files (user_artists.dat, artists.dat) in a directory named lastFMdataset within the project directory.
+    Place the lastFMdataset folder (stores the artists.dat and user_artists.dat files) into the project directory
 
 ## Usage
 To run the recommendation system, type in the command:
