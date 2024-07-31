@@ -37,13 +37,13 @@ To set up this project, follow these steps:
 ## Usage
 To run the recommendation system, type in the command:
 
-  python musiccollabfiltering/recommender.py
+    python musiccollabfiltering/recommender.py
   
 You will be prompted with the following options:
 
 Enter 1 for artist recommendations by userID, 2 for similar artist recommendations by artistID, or 3 to generate an artistID based on the artist's name. Enter 4 to exit:
 
-Example:
+### Example:
 
 Enter 1 for artist recommendations by userID, 2 for similar artist recommendations by artistID, or 3 to generate an artistID based on the artist's name. Enter 4 to exit:
 
