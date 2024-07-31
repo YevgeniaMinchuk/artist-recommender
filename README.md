@@ -18,12 +18,19 @@ A Python-based music recommendation system that suggests artists to users based 
 ## Installation
 To set up this project, follow these steps:
 1. Clone the repository:
+
     git clone https://github.com/your-username/music-recommender.git
+   
     cd music-recommender
+   
 2. Set up a virtual environment:
+
     python -m venv venv
+   
     source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+   
 3. Download the Last.fm dataset:
+   
     Place the dataset files (user_artists.dat, artists.dat) in a directory named lastFMdataset within the project directory.
 
 ## Usage
