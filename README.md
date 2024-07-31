@@ -19,7 +19,7 @@ A Python-based music recommendation system that suggests artists to users based 
 To set up this project, follow these steps:
 1. Clone the repository:
 
-    git clone https://github.com/your-username/music-recommender.git
+    git clone https://github.com/YevgeniaMinchuk/artist-recommender.git
    
     cd music-recommender
    
