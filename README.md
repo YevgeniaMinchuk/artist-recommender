@@ -1,4 +1,4 @@
-# artist-recommender
+# Artist Recommender
 A Python-based music recommendation system that suggests artists to users based on collaborative filtering techniques. It utilizes the Last.fm dataset and Python's implicit library for implementing the Alternating Least Squares (ALS) model and other collaborative filtering methods.
 
 ## Table of Contents
@@ -6,7 +6,6 @@ A Python-based music recommendation system that suggests artists to users based 
 - [Features](#features)
 - [Installation](#installation)
 - [Code Overview](#code-overview)
-- [Usage](#usage)
 - [Technologies Used](#technologies-used)
 - [Contact](#contact)
 
@@ -16,25 +15,27 @@ A Python-based music recommendation system that suggests artists to users based 
 - Artist Information Retrieval: Retrieves artist names based on artist ID or vice versa
 
 ## Installation
-To set up this project, follow these steps:
+To set up this project through downloading the ZIP file, follow these steps:
 
-1. Clone the repository:
+1. Download the ZIP file from GitHub
+   
+2. Create the Python environment:
 
-    git clone https://github.com/YevgeniaMinchuk/artist-recommender.git
-   
-    cd artist-recommender
-   
-2. Set up a virtual environment:
+    Click CNTRL + SHIFT + P and choose "Python: Create Environment"
+
+    Click CTRL + SHIFT + P again and choose "Terminal: Create New Terminal"
+
+    Type these commands intro the command line:
 
     python -m venv venv
    
     source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
    
-3. Download the Last.fm dataset:
+3. Download the dependencies:
    
-    Place the lastFMdataset folder (stores the artists.dat and user_artists.dat files) into the project directory
-
-## Usage
+    pip install -r requirements.txt
+    
+### Usage
 To run the recommendation system, type in the command:
 
     python musiccollabfiltering/recommender.py
