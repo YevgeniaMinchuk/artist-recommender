@@ -46,30 +46,48 @@ Enter 1 for artist recommendations by userID, 2 for similar artist recommendatio
 
 ### Example:
 
-Enter 1 for artist recommendations by userID, 2 for similar artist recommendations by artistID, or 3 to generate an artistID based on the artist's name. Enter 4 to exit:
-3
-Enter an artist's name:   coldplay
-The artist ID for coldplay is 65
+   Enter 1 for artist recommendations by userID, 2 for similar artist recommendations by artistID, or 3 to generate an artistID based on the artist's name. Enter 4 to exit:
+   
+   3
+   
+   Enter an artist's name:   coldplay
+   
+   The artist ID for coldplay is 65
+   
+   Enter 1 for artist recommendations by userID, 2 for similar artist recommendations by artistID, or 3 to generate an artistID based on the artist's name. Enter 4 to exit:
+   
+   2
+   
+   Enter an artistID:   65
+   
+   Your Artist:  Coldplay
+   
+   Artist: #1, Score: 1.0000001192092896
+   
+   Artist: 1. allegro, Score: 0.48792362213134766
+   
+   Artist: 194_dj piligrim, Score: 0.41729864478111267
+   
+   Artist: 13 & god, Score: 0.4159063696861267
+   
+   Artist: (f-zero gx) daiki kasho, Score: 0.393725723028183
+   
+   Artist: 1.serija, Score: 0.375570684671402
+   
+   Artist: 13 nelly furtado y juanes, Score: 0.36356422305107117
+   
+   Artist: 100 portraits & waterdeep, Score: 0.36119163036346436
+   
+   Artist: 02 welcome to rapture, Score: 0.3569047749042511
+   
+   Artist: 08 (zero eight), Score: 0.34334686398506165
 
-Enter 1 for artist recommendations by userID, 2 for similar artist recommendations by artistID, or 3 to generate an artistID based on the artist's name. Enter 4 to exit:
-2
-Enter an artistID:   65
-Your Artist:  Coldplay
-Artist: #1, Score: 1.0000001192092896
-Artist: 1. allegro, Score: 0.48792362213134766
-Artist: 194_dj piligrim, Score: 0.41729864478111267
-Artist: 13 & god, Score: 0.4159063696861267
-Artist: (f-zero gx) daiki kasho, Score: 0.393725723028183
-Artist: 1.serija, Score: 0.375570684671402
-Artist: 13 nelly furtado y juanes, Score: 0.36356422305107117
-Artist: 100 portraits & waterdeep, Score: 0.36119163036346436
-Artist: 02 welcome to rapture, Score: 0.3569047749042511
-Artist: 08 (zero eight), Score: 0.34334686398506165
-
-Enter 1 for artist recommendations by userID, 2 for similar artist recommendations by artistID, or 3 to generate an artistID based on the artist's name. Enter 4 to exit:
-4
-
-Thank you for using the music recommender!
+   
+   Enter 1 for artist recommendations by userID, 2 for similar artist recommendations by artistID, or 3 to generate an artistID based on the artist's name. Enter 4 to exit:
+   
+   4
+   
+   Thank you for using the music recommender!
 
 ## Code Overview
 ### Main Components
