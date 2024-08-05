@@ -21,11 +21,11 @@ To set up this project through downloading the ZIP file, follow these steps:
    
 2. Create the Python environment:
 
-    Click CNTRL + SHIFT + P and choose "Python: Create Environment"
+    Click CTRL + SHIFT + P and choose "Python: Create Environment"
 
     Click CTRL + SHIFT + P again and choose "Terminal: Create New Terminal"
 
-    Type these commands intro the command line:
+    Type these commands into the command line:
 
     python -m venv venv
    
