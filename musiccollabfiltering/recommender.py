@@ -150,14 +150,14 @@ if __name__ == "__main__":
         elif choice == 2:
             # Get recommendations for similar artists based on artistID
             artist_id_input = int(input("Enter an artistID:   "))
-            print("Artist: ", artist_retriever.get_artist_name(artist_id_input))
+            print("Your Artist: ", artist_retriever.get_artist_name(artist_id_input))
             recommended_artists, scores = recommender.recommend_similar(artist_id_input)
             for ids, score in zip(recommended_artists, scores):
                 print(f"Artist: {artists[ids]}, Score: {score}")
         elif choice == 3:
             # Generate artistID based on artist name
             artist_name_input = str(input("Enter an artist's name:   "))
-            print(artist_retriever.get_artist_id(artist_name_input))
+            print(f"The artist ID for {artist_name_input} is {artist_retriever.get_artist_id(artist_name_input)}")
         elif choice == 4:
             print("\nThank you for using the music recommender!")
             break
