@@ -21,9 +21,9 @@ To set up this project through downloading the ZIP file, follow these steps:
    
 2. Create the Python environment:
 
-    Click CTRL + SHIFT + P and choose "Python: Create Environment"
-
-    Click CTRL + SHIFT + P again and choose "Terminal: Create New Terminal"
+- Open the Command Palette (View > Command Palette or Ctrl+Shift+P)
+- Select the Python: Create Environment command to create a virtual environment in your workspace. Choose venv and the Python environment you want to use
+- After the virtual environment is created, run Terminal: Create New Terminal (Ctrl+Shift+ ``) from the Command Palette, which creates a terminal and automatically activates the virtual environment
 
     Type these commands into the command line:
 
