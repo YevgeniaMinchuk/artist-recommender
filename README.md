@@ -90,9 +90,9 @@ Enter 1 for artist recommendations by userID, 2 for similar artist recommendatio
 
 ## Code Overview
 ### Main Components
-load_user_artists: Loads user-artist interactions data from a file and returns it as a CSR matrix.
+load_user_artists: Loads user-artist interaction data from a file and returns it as a CSR matrix.
 
-ArtistRetriever: Class for retrieving artist names and images using artist IDs.
+ArtistRetriever: Class for retrieving artist information using the artistID or artist name.
 
 Recommender: Class for fitting a collaborative filtering model and generating recommendations.
 
